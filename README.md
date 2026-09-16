@@ -1,13 +1,4 @@
-This repo is a stand alone repo for the governance contracts associated with this project.  In order to view and interact with them, clone and run the [Daohaus-frontend](https://github.com/Daohaus/daohaus-frontend) repo as a sibling repository.  Getting started instructions found in the [README](https://github.com/Daohaus/daohaus-frontend) of that repo.
+# Parcours français
 
+Ce fork propose un parcours documentaire en français consacré à DAOhaus. Le sommaire est disponible dans [docs/fr/](./docs/fr/).
 
-## TODO
-
-- [x] create Benevolent Dictator hub contract for use inside consensys
-- [ ] Refactor tests that are meant to "throw" to follow pattern that won't break ganache - http://truffleframework.com/tutorials/testing-for-throws-in-solidity-tests
-- [ ] check to make sure user isn't already member of hub before allowing to register
-- [ ] check to make sure resource proposal isn't finished before allowing to vote -- currently can vote on finished proposals
-- [ ] check if member of hub before allowing to vote
-- [ ] check to make sure dictator added people have same weight
-- [ ] allow dictator to change weight of a user
-- [ ] allow user to change name, blockcom id etc
